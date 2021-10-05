@@ -15,3 +15,5 @@
 > docker-compose -f docker-compose.prod.yml exec web python manage.py collectstatic --no-input --clear
 
 ### Ваше приложение будет по адресу: http://localhost:1337/media/IMAGE_FILE_NAME
+
+### За основу взят гайд: https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/
